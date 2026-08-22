@@ -4,6 +4,15 @@ import java.util.Scanner;
 
 public class MenuDriven{
 
+	static	byte a;
+    static	short b;
+    static 	int c;
+    static  long d;
+    static float e;
+    static  double f;
+    static char g;
+    static  boolean h;
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -106,23 +115,15 @@ public class MenuDriven{
 
                 case 4:
                 // Default Values of Variables
-		byte a = 0;
-        	short b = 0;
-       		int c = 0;
-        	long d = 0L;
-        	float e = 0.0f;
-        	double f = 0.0;
-        	char g = '\u0000';
-        	boolean h = false;
-
-       		System.out.println(a);
-        	System.out.println(b);
-        	System.out.println(c);
-        	System.out.println(d);
-        	System.out.println(e);
-        	System.out.println(f);
-        	System.out.println(g);
-        	System.out.println(h);	
+					
+		 			System.out.println("byte " +a);
+                    System.out.println("short :" +b);
+                    System.out.println("int :" +c);
+                    System.out.println("long : "+d);
+                    System.out.println("float : "+e);
+                    System.out.println("double :" +f);
+                    System.out.println("char : "+g);
+                    System.out.println("boolean : "+h);
                     break;
 
                 case 5:
